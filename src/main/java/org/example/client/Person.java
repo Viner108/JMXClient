@@ -1,6 +1,8 @@
 package org.example.client;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable {
     private String name = "Max";
 
     public String getName() {
